@@ -1,0 +1,38 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.form--item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+#file {
+    display: none;
+}
+
+.uploader {
+    border: 1px dotted gray;
+    display: flex;
+    padding: 12px 12px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    gap: 12px;
+}
+
+.uploader-icon {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+.form-error{
+    color: red;
+    border-radius: 2px soli gray;
+}
